@@ -1,29 +1,14 @@
-# maths-explicites-cp-ce1-ce2
+# Maths explicites CP-CE1-CE2 — V1 réelle
 
-Application pédagogique hors-ligne pour séances de mathématiques explicites en classe CP-CE1-CE2.
+Application HTML autonome pour mener une séance de maths explicite en triple niveau.
 
-## Charte numération
+## Inclus
+- Mode enseignant / élèves
+- Tableau de bord CP-CE1-CE2
+- Chronomètre
+- Séance 1 complète
+- Trace écrite A5 imprimable
+- Matériel : bûchettes, élastiques, tableau de numération, boulier si pertinent
 
-- 🔵 Milliers
-- 🟩 Centaines
-- 🟨 Dizaines
-- 🟥 Unités
-
-## Structure d'une séance
-
-1. 🎯 Objectif
-2. 🧠 Réactivation
-3. 🔍 Recherche
-4. 👨‍🏫 Je montre
-5. 👥 Nous faisons
-6. ✍️ Vous faites / fichier
-7. 📄 Je retiens
-8. ✅ Vérification
-
-## Matériel de référence
-
-- Bûchettes + élastiques
-- Tableau de numération
-- Ardoises
-- Cartes-nombres
-- Boulier si pertinent
+## Installation GitHub Pages
+Mettre `index.html` et `README.md` à la racine du dépôt, puis activer Pages sur `main / root`.
