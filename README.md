@@ -1,11 +1,10 @@
-# Maths explicites CP-CE1-CE2 — V1 réelle
+# Maths explicites CP-CE1-CE2 — V1.1 sans chrono
 
 Application HTML autonome pour mener une séance de maths explicite en triple niveau.
 
 ## Inclus
 - Mode enseignant / élèves
-- Tableau de bord CP-CE1-CE2
-- Chronomètre
+- Affichage clair CP-CE1-CE2 dans chaque phase
 - Séance 1 complète
 - Trace écrite A5 imprimable
 - Matériel : bûchettes, élastiques, tableau de numération, boulier si pertinent
