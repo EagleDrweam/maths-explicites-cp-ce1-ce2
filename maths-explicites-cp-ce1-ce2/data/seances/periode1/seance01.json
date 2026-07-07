@@ -1,0 +1,81 @@
+{
+  "titre": "P1 · Séance 1 · Construire les nombres",
+  "dureeTotale": "40 min",
+  "objectifs": {
+    "CP": "Dire la suite orale des nombres jusqu'à 30.",
+    "CE1": "Lire un nombre avec dizaines et unités : 124 = 12 dizaines et 4 unités.",
+    "CE2": "Lire et construire des nombres jusqu'à 5 999 avec milliers, centaines, dizaines, unités."
+  },
+  "phases": [
+    {
+      "titre": "Objectif",
+      "icone": "🎯",
+      "duree": "3 min",
+      "organisation": "Collectif, tous les niveaux ensemble.",
+      "materiel": "Tableau, ardoises fermées, bûchettes visibles mais non distribuées.",
+      "groupes": {"CP":{"avecMaitre":true,"action":"écoutent et reformulent"},"CE1":{"avecMaitre":true,"action":"écoutent et reformulent"},"CE2":{"avecMaitre":true,"action":"écoutent et reformulent"}},
+      "eleves": {"titre":"Aujourd'hui, nous apprenons à construire les nombres.","consigne":"CP : compter jusqu'à 30. CE1 : lire les dizaines et les unités. CE2 : lire jusqu'à 5 999 avec milliers, centaines, dizaines, unités.","html":"<div class='objectives'><div class='obj'>CP<br><b>Je compte jusqu'à 30.</b></div><div class='obj'>CE1<br><b>124 = 12 dizaines et 4 unités.</b></div><div class='obj'>CE2<br><b>1 473 = 1 millier, 4 centaines, 7 dizaines, 3 unités.</b></div></div>"},
+      "enseignant": {"script":"Aujourd'hui, nous allons apprendre à compter plus efficacement. Quand il y a beaucoup d'objets, on ne les compte pas toujours un par un. On fait des paquets.","questions":"Pourquoi faire des paquets peut-il aider ?","reponses":"Parce que c'est plus rapide, plus sûr, et cela évite d'oublier ou de recompter des objets.","erreurs":"Des élèves peuvent penser que les paquets changent la quantité. Faire verbaliser : on n'enlève rien, on organise seulement.","pourquoi":"On annonce clairement l'objectif pour orienter l'attention des élèves et donner du sens à la manipulation."}
+    },
+    {
+      "titre": "Réactivation",
+      "icone": "🧠",
+      "duree": "5 min",
+      "organisation": "Collectif oral très rythmé.",
+      "materiel": "Frise numérique, cartes nombres jusqu'à 30.",
+      "groupes": {"CP":{"avecMaitre":true,"action":"comptent jusqu'à 30"},"CE1":{"avecMaitre":true,"action":"aident à repérer dizaines/unités"},"CE2":{"avecMaitre":true,"action":"aident à verbaliser"}},
+      "eleves": {"titre":"Je me rappelle.","consigne":"Nous comptons ensemble. Les CP s'arrêtent à 30. Les CE continuent si demandé.","html":"<p style='font-size:2rem'>1 · 2 · 3 · … · 30</p>"},
+      "enseignant": {"script":"Nous allons compter ensemble jusqu'à 30. Je veux une voix posée, régulière, sans aller trop vite.","questions":"Quel nombre vient après 19 ? Après 29 ?","reponses":"Après 19 : 20. Après 29 : 30.","erreurs":"Confusion entre vingt-neuf et vingt-dix ; reprise avec la frise.","pourquoi":"La réactivation stabilise les prérequis avant d'introduire les groupements."}
+    },
+    {
+      "titre": "Recherche",
+      "icone": "🔍",
+      "duree": "7 min",
+      "organisation": "Recherche individuelle courte, puis échange collectif.",
+      "materiel": "Bûchettes, élastiques, ardoises.",
+      "groupes": {"CP":{"avecMaitre":false,"action":"cartes nombres 1 à 30 : remettre en ordre"},"CE1":{"avecMaitre":true,"action":"chercher comment compter 124 bûchettes"},"CE2":{"avecMaitre":true,"action":"chercher comment compter 1 473 bûchettes"}},
+      "eleves": {"titre":"Comment compter vite et sans erreur ?","consigne":"CE : cherchez seuls une stratégie. CP : remettez les cartes-nombres dans l'ordre.","html":"<div class='sticks'>"},
+      "enseignant": {"script":"Vous cherchez seuls pendant deux minutes. Vous devez pouvoir expliquer votre stratégie. Vous avez le droit d'utiliser les bûchettes et les élastiques.","questions":"Qu'as-tu fait en premier ? Pourquoi ? Comment sais-tu que tu n'as rien oublié ?","reponses":"Faire des paquets de 10 ; pour les CE2, faire ensuite des paquets de 100.","erreurs":"Compter un par un ; mélanger paquets et unités ; oublier que 10 dizaines = 1 centaine.","pourquoi":"La recherche individuelle évite qu'un élève se repose sur le binôme et permet d'observer les procédures réelles."}
+    },
+    {
+      "titre": "Je montre",
+      "icone": "👨‍🏫",
+      "duree": "8 min",
+      "organisation": "Modélisation explicite avec CE1-CE2 ; CP en autonomie sécurisée.",
+      "materiel": "Bûchettes, élastiques, tableau de numération projeté.",
+      "groupes": {"CP":{"avecMaitre":false,"action":"fichier CP p.12 ou cartes-nombres"},"CE1":{"avecMaitre":true,"action":"observent la stratégie"},"CE2":{"avecMaitre":true,"action":"observent puis généralisent"}},
+      "eleves": {"titre":"Je fais des paquets pour lire le nombre.","consigne":"Regardez. Le maître montre la stratégie. Vous ne manipulez pas encore.","html":"<ol><li>Je fais des paquets de <b class='d'>10</b>.</li><li>Je compte les dizaines.</li><li>Je compte les unités.</li><li>CE2 : 10 dizaines deviennent 1 centaine.</li></ol><table class='num-table'><tr><th class='m'>M</th><th class='c'>C</th><th class='d'>D</th><th class='u'>U</th></tr><tr><td>1</td><td>4</td><td>7</td><td>3</td></tr></table>"},
+      "enseignant": {"script":"Je ne compte pas tout un par un. Je prends 10 bûchettes, je les attache : cela fait une dizaine. Je recommence. Pour les CE2, quand j'ai 10 dizaines, je peux faire une centaine.","questions":"Combien de dizaines ? Combien d'unités isolées ? Que vaut un paquet de 10 ?","reponses":"Un paquet de 10 vaut une dizaine. 124 = 12 dizaines et 4 unités. 1 473 = 1 millier, 4 centaines, 7 dizaines, 3 unités.","erreurs":"Dire 124 = 1 dizaine et 24 unités alors qu'on vise ici 12 dizaines et 4 unités. Accepter puis reformuler : c'est possible, mais aujourd'hui on apprend à lire les dizaines contenues dans le nombre.","pourquoi":"Le 'Je fais' rend visible la stratégie experte avant de demander aux élèves de l'utiliser."}
+    },
+    {
+      "titre": "Nous faisons",
+      "icone": "👥",
+      "duree": "8 min",
+      "organisation": "Pratique guidée CE1-CE2 ; CP rejoignent pour compter oralement au début puis repartent en autonomie.",
+      "materiel": "Ardoises, tableau de numération, bûchettes.",
+      "groupes": {"CP":{"avecMaitre":false,"action":"s'entraînent à compter jusqu'à 30 avec cartes"},"CE1":{"avecMaitre":true,"action":"écrivent dizaines et unités"},"CE2":{"avecMaitre":true,"action":"écrivent M C D U"}},
+      "eleves": {"titre":"Nous utilisons la stratégie ensemble.","consigne":"CE : écrivez sur l'ardoise. CP : cartes-nombres puis fichier.","html":"<p><b>CE1 :</b> 124 = ___ dizaines et ___ unités.</p><p><b>CE2 :</b> 1 473 = ___ millier, ___ centaines, ___ dizaines, ___ unités.</p>"},
+      "enseignant": {"script":"À chaque fois, nous suivons la même stratégie : paquets de 10, puis paquets de 100 si c'est utile, puis tableau de numération.","questions":"Quelle colonne remplit-on d'abord ? Que reste-t-il tout seul ?","reponses":"On identifie les plus grands groupements utiles, puis les centaines/dizaines/unités restantes.","erreurs":"Inversion dizaines/unités ; lecture chiffre par chiffre sans valeur de position.","pourquoi":"La pratique guidée permet de corriger immédiatement avant l'autonomie."}
+    },
+    {
+      "titre": "Je retiens",
+      "icone": "📄",
+      "duree": "5 min",
+      "organisation": "Collectif court puis collage de la trace écrite quand elle est distribuée.",
+      "materiel": "Trace écrite A5, colle, cahier de leçons.",
+      "groupes": {"CP":{"avecMaitre":true,"action":"récitent jusqu'à 30"},"CE1":{"avecMaitre":true,"action":"lisent la trace"},"CE2":{"avecMaitre":true,"action":"lisent la trace"}},
+      "eleves": {"titre":"Ce que je retiens.","consigne":"Pour compter une grande collection, je fais des paquets.","html":"<p>🟨 1 dizaine = 10 unités 🟥</p><p>🟩 1 centaine = 10 dizaines 🟨</p><p>🔵 1 millier = 10 centaines 🟩</p>"},
+      "enseignant": {"script":"Nous retenons : les paquets servent à organiser la quantité. Ils ne changent pas le nombre d'objets.","questions":"Qu'est-ce qu'une dizaine ? Qu'est-ce qu'une centaine ?","reponses":"Une dizaine = 10 unités. Une centaine = 10 dizaines. Un millier = 10 centaines.","erreurs":"Confondre chiffre et nombre de dizaines. Revenir à l'exemple 124 = 12 dizaines et 4 unités.","pourquoi":"L'institutionnalisation transforme la manipulation en savoir mathématique explicite."}
+    },
+    {
+      "titre": "Vérification",
+      "icone": "✅",
+      "duree": "4 min",
+      "organisation": "Évaluation flash sur ardoise.",
+      "materiel": "Ardoises.",
+      "groupes": {"CP":{"avecMaitre":true,"action":"montrent le nombre demandé"},"CE1":{"avecMaitre":true,"action":"complètent 46 = ... D ... U"},"CE2":{"avecMaitre":true,"action":"complètent 2 436 = ... M ... C ... D ... U"}},
+      "eleves": {"titre":"Je vérifie que j'ai compris.","consigne":"Réponds sur ton ardoise.","html":"<p>CP : montre 27.</p><p>CE1 : 46 = ___ dizaines et ___ unités.</p><p>CE2 : 2 436 = ___ milliers, ___ centaines, ___ dizaines, ___ unités.</p>"},
+      "enseignant": {"script":"Je regarde les ardoises. Si beaucoup d'élèves se trompent, je reprends avec les bûchettes avant les exercices du fichier.","questions":"Explique ta réponse.","reponses":"46 = 4 dizaines et 6 unités. 2 436 = 2 milliers, 4 centaines, 3 dizaines, 6 unités.","erreurs":"Réponse correcte écrite mais non verbalisée ; demander une justification orale.","pourquoi":"La vérification immédiate évite d'envoyer les élèves en autonomie avec une erreur installée."}
+    }
+  ]
+}

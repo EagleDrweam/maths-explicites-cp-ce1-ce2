@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#2563eb" />
+  <title>Maths explicites CP-CE1-CE2</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Écrire · Maths explicites</p>
+      <h1>CP · CE1 · CE2</h1>
+    </div>
+    <button id="modeBtn" class="btn secondary">Mode élèves</button>
+  </header>
+
+  <main class="app-grid">
+    <aside class="sidebar">
+      <h2>Progression</h2>
+      <button class="lesson active" data-src="data/seances/periode1/seance01.json">P1 · Séance 1<br><span>Construire les nombres</span></button>
+      <hr>
+      <h2>Outils</h2>
+      <button class="tool" id="showBuchettes">🪵 Bûchettes</button>
+      <button class="tool" id="showTableau">📊 Tableau de numération</button>
+    </aside>
+
+    <section class="workspace">
+      <nav class="dashboard">
+        <div><strong id="phaseTitle">Chargement…</strong><span id="phaseTime">40 min</span></div>
+        <div class="groups" id="groups"></div>
+        <div class="timer"><span id="timer">00:00</span><button class="btn small" id="startTimer">▶</button><button class="btn small" id="resetTimer">↺</button></div>
+      </nav>
+
+      <section id="studentView" class="card student-view"></section>
+      <section id="teacherView" class="card teacher-view"></section>
+
+      <div class="controls">
+        <button class="btn" id="prev">← Précédent</button>
+        <button class="btn primary" id="next">Suivant →</button>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="toolDialog">
+    <button class="close" id="closeDialog">×</button>
+    <div id="toolContent"></div>
+  </dialog>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
