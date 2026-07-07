@@ -1,9 +1,0 @@
-{
-  "name": "Maths explicites CP CE1 CE2",
-  "short_name": "Maths explicites",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#f8fafc",
-  "theme_color": "#2563eb",
-  "icons": []
-}
